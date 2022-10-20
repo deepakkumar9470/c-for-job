@@ -58,3 +58,93 @@ using namespace std;
 //     }
 //     return 0;
 // }
+
+
+
+//int main(){
+     
+//     double arr[] = {11,22,33,44,55};
+    
+
+//     double sum = 0;
+//     double average = 0;
+//     double count = 0;
+//     for(const double &n:  arr){
+//         sum = sum + n;
+//         ++count;
+//     }
+
+//     cout<< "The Sum of array is " << sum<<endl;
+
+//      average = sum  / count;
+  
+    
+//     cout<< "The Sum of array is " << average<<endl;
+     
+
+
+//     return 0;
+// }
+
+ 
+
+ /*****     Find max *****/
+// int main(){
+
+//     // int arr[] = {2,-4,0,9,12};
+//     int mx = -199999;
+//     int n ;
+
+//      cin>>n;
+//     int arr[n];
+
+
+//     for (int i =0 ; i<n;i++)
+//     {
+//           cin>>arr[i];
+//     }
+
+//     for (int i = 0; i < n; i++)
+//     {
+//        mx = max(mx, arr[i]);
+//        cout<<"Result:"<< mx<<endl;
+//     }
+    
+    
+//     return 0;
+// }
+
+
+
+ /*****  Sum of all subarrays *****/
+
+//   int main(){
+    
+//     int n;
+//     cin>>n;
+
+//     int arr[n];
+
+//     for (int i = 0; i < n; i++)
+//     {
+//            cin>>arr[i];
+//     }
+
+//      int current = 0;
+//      for (int i = 0; i < n; i++)
+//      {
+//             current = 0;
+
+//             for (int j = 1; j < n; j++)
+//             {
+//                current +=arr[j];
+//                cout<< current <<endl;
+//             }
+            
+//      }
+
+//     return 0;
+//  }
+
+
+
