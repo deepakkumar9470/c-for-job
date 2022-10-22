@@ -2,7 +2,10 @@
 #include<string>
 #include<algorithm>
 
+// #include <functional.h>
+
 using namespace std;
+
 
 // Operations on string append,substr,sort,length,compare etc
 // int main(){
@@ -53,3 +56,125 @@ using namespace std;
     //  cout<<to_string(s4)<<endl;
     // return 0 ;
 // }
+
+
+
+
+
+
+
+
+
+
+
+/********** Given a string then convert into uppercese or 
+lowercase of whole string **********/
+
+// By using built in method
+
+// int main(){
+
+//      string s1 = "deepak kumar chouhan";
+//      string s2 = "deepak kumar chouhan";
+    
+//      transform(s1.begin(), s1.end(), s1.begin(), ::toupper); 
+//      cout<<s1<<endl;
+
+
+//       transform(s2.begin(), s2.end(), s2.begin(), ::tolower); 
+//       cout<<s2<<endl;
+     
+//     return 0;
+// }
+
+
+
+
+// By using for loop
+// int main(){
+
+//      string s = "deepakkumar";
+//     //  cout<<'a' - 'A'; // 32 means a ahead by 32 from A
+
+//      for (int i = 0; i < s.size(); i++)
+//      {
+//            if(s[i] >='a' && s[i] <='z'){
+//              s[i] -=32;
+//            }
+//      }
+
+//  cout<<s<<endl;
+//  for (int i = 0; i < s.size(); i++)
+//      {
+//            if(s[i] >='A' && s[i] <='Z'){
+//              s[i] +=32;
+//            }
+//      }
+//      cout<<s<<endl;
+     
+//     return 0;
+// }
+
+
+
+
+
+
+/********** Find the biggest number from numeric string **********/
+
+// By using greater<int> in descending order
+
+
+// int main(){
+
+//      string s = "234567";
+
+//      sort(s.begin(), s.end(), greater<int>());
+
+//      cout<<s<<endl;
+
+//      return 0;
+
+// }
+
+
+/********** Find the frequency (count) of character of string **********/
+
+
+// int main(){
+
+//      string s = "abcabsddefgdd";
+
+//      int freq[26];
+
+//      for (int i = 0; i < 26; i++)
+//      {
+//          freq[i] = 0;
+//      }
+      
+//      for (int i = 0; i < 26; i++)
+//      {
+//            freq[s[i] - 'a']++;
+//      }
+//             char ans = 'a';
+//            int max = 0;
+//      for (int i = 0; i < s.size(); i++)
+//      {
+          
+//            if(freq[i] >  max){
+//                 max = freq[i];
+//                 ans = i + 'a';
+//            }
+//      }
+     
+
+      
+
+//      cout<<max<<" "<<ans<<endl;
+
+//      return 0;
+
+// }
+
+
+
