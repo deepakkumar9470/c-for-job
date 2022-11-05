@@ -27,11 +27,26 @@ class Linkedlist{
 
      };
 
-     Node* head;
+     Node *head, *tail;
      
      public:
         Linkedlist(){
+
             head = NULL;
+            tail = NULL;
+        }
+        
+      void insertionAtBeg(int data){
+           Node *n = new Node(data);
+
+           if(head==NULL){
+                head = n;
+                tail = n;
+
+           }else{
+            n->next = head;
+            head = n;
+           }
         }
 
         void insertAtLEnd(int data){
